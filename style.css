@@ -1,0 +1,35 @@
+﻿body {
+    font-family: tahoma, sans-serif;
+}
+
+h3 {
+    color: #0085DE;
+}
+
+.pre-image {
+    min-height: 80%;
+    max-height: 80%;
+    min-width: 50%;
+    max-width: 50%;
+    border: 2px solid #999;
+    background-image: url(camera.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    float: left;
+    margin-right: 20px;
+}
+
+.pre-image img {
+    display: none;
+    margin: auto;
+}
+
+#res-text {
+    color: #0085DE;
+    font-size: 16pt;
+}
+
+#submitForm {
+    margin-top: 20px;
+}
